@@ -8,8 +8,9 @@ This project is a Python-based application that converts WAV audio files to FLAC
 - Provides a web server interface for file conversion
 - Supports asynchronous processing of audio file conversion
 
-## I have uploaded sample of datasets
-## Entire dataset is big
+## I have only uploaded some samples of datasets i have used 
+
+## Entire dataset is enormous 
 
 ## 🛠️ Installation
 
