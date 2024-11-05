@@ -51,48 +51,50 @@ The project also includes a WebSocket interface for streaming audio conversion. 
 - websockets
 
 🏗️ Program Structure
-sample_data/
-  dataset/
-    test/
-    train/
-    val/
-  data.json
-  params.json
-  README.md
-  anscombe.json
-  california_housing_test.csv
-  california_housing_train.csv
-  mnist_test.csv
-  mnist_train_small.csv
-vits_model/
-  configs/
-    ljs_base.json
-    ljs_nosdp.json
-    vctk_base.json
-  filelists/
-    ljs_audio_text_test_filelist.txt
-    ljs_audio_text_train_filelist.txt
-    ljs_audio_text_val_filelist.txt
-    ljs_audio_text_val_filelist.txt
-monotonic_align/
-  __init__.py
-  core.py
-  setup.py
-  resources/
-  text/
-  LICENSE
-  README.md
-  attentions.py
-  commons.py
-  data_utils.py
-  inference.ipynb
-  losses.py
-  mel_processing.py
-  models.py
-  modules.py
-  preprocess.py
-  requirements.txt
-  train.py
-  train_ms.py
-  transforms.py
-  utils.py
+project/
+├── sample_data/                     # Main data directory
+│   ├── dataset/                     # Organized dataset folders
+│   │   ├── test/                   # Test dataset
+│   │   ├── train/                  # Training dataset
+│   │   └── val/                    # Validation dataset
+│   ├── data.json                   # General data configuration
+│   ├── params.json                 # Parameter settings
+│   ├── README.md                   # Data documentation
+│   ├── anscombe.json              # Anscombe dataset
+│   ├── california_housing_test.csv  # California housing test data
+│   ├── california_housing_train.csv # California housing training data
+│   ├── mnist_test.csv             # MNIST test dataset
+│   └── mnist_train_small.csv      # MNIST training subset
+│
+├── vits_model/                     # VITS model directory
+│   ├── configs/                    # Configuration files
+│   │   ├── ljs_base.json          # LJSpeech base config
+│   │   ├── ljs_nosdp.json         # LJSpeech no-SDP config
+│   │   └── vctk_base.json         # VCTK base config
+│   └── filelists/                 # Audio-text filelists
+│       ├── ljs_audio_text_test_filelist.txt
+│       ├── ljs_audio_text_train_filelist.txt
+│       └── ljs_audio_text_val_filelist.txt
+│
+└── monotonic_align/               # Monotonic alignment module
+    ├── resources/                 # Resource files
+    ├── text/                      # Text processing files
+    ├── __init__.py               # Package initializer
+    ├── core.py                   # Core functionality
+    ├── setup.py                  # Setup configuration
+    ├── LICENSE                   # License file
+    ├── README.md                 # Documentation
+    ├── attentions.py            # Attention mechanisms
+    ├── commons.py               # Common utilities
+    ├── data_utils.py            # Data utilities
+    ├── inference.ipynb          # Inference notebook
+    ├── losses.py                # Loss functions
+    ├── mel_processing.py        # Mel spectrogram processing
+    ├── models.py                # Model definitions
+    ├── modules.py               # Module implementations
+    ├── preprocess.py            # Data preprocessing
+    ├── requirements.txt         # Dependencies
+    ├── train.py                # Training script
+    ├── train_ms.py             # Multi-speaker training
+    ├── transforms.py           # Data transformations
+    └── utils.py                # Utility functions
