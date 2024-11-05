@@ -50,6 +50,9 @@ The project also includes a WebSocket interface for streaming audio conversion. 
 - aiohttp
 - websockets
 
+## 🏗️Program Structure
+
+```
 project/
 ├── sample_data/                     # Main data directory
 │   ├── dataset/                     # Organized dataset folders
@@ -97,6 +100,7 @@ project/
     ├── train_ms.py             # Multi-speaker training
     ├── transforms.py           # Data transformations
     └── utils.py                # Utility functions
+```
 
 
 
