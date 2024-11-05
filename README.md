@@ -50,13 +50,49 @@ The project also includes a WebSocket interface for streaming audio conversion. 
 - aiohttp
 - websockets
 
-## 💡 Future Improvements
-
-- Add support for batch processing of multiple audio files
-- Implement more efficient audio conversion algorithms
-- Provide a web-based user interface for file conversion
-- Add support for more audio file formats
-
-## 📄 License
-
-This project is licensed under the [MIT License](LICENSE).
+🏗️ Program Structure
+sample_data/
+  dataset/
+    test/
+    train/
+    val/
+  data.json
+  params.json
+  README.md
+  anscombe.json
+  california_housing_test.csv
+  california_housing_train.csv
+  mnist_test.csv
+  mnist_train_small.csv
+vits_model/
+  configs/
+    ljs_base.json
+    ljs_nosdp.json
+    vctk_base.json
+  filelists/
+    ljs_audio_text_test_filelist.txt
+    ljs_audio_text_train_filelist.txt
+    ljs_audio_text_val_filelist.txt
+    ljs_audio_text_val_filelist.txt
+monotonic_align/
+  __init__.py
+  core.py
+  setup.py
+  resources/
+  text/
+  LICENSE
+  README.md
+  attentions.py
+  commons.py
+  data_utils.py
+  inference.ipynb
+  losses.py
+  mel_processing.py
+  models.py
+  modules.py
+  preprocess.py
+  requirements.txt
+  train.py
+  train_ms.py
+  transforms.py
+  utils.py
