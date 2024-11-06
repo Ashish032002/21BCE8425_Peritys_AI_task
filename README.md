@@ -88,22 +88,22 @@ project/
     ├── __init__.py               # Package initializer
     ├── core.py                   # Core functionality
     ├── setup.py                  # Setup configuration
-    ├── LICENSE                   # License file
-    ├── README.md                 # Documentation
-    ├── attentions.py            # Attention mechanisms
-    ├── commons.py               # Common utilities
-    ├── data_utils.py            # Data utilities
-    ├── inference.ipynb          # Inference notebook
-    ├── losses.py                # Loss functions
-    ├── mel_processing.py        # Mel spectrogram processing
-    ├── models.py                # Model definitions
-    ├── modules.py               # Module implementations
-    ├── preprocess.py            # Data preprocessing
-    ├── requirements.txt         # Dependencies
-    ├── train.py                # Training script
-    ├── train_ms.py             # Multi-speaker training
-    ├── transforms.py           # Data transformations
-    └── utils.py                # Utility functions
+
+├── README.md                 # Documentation
+  ├── attentions.py            # Attention mechanisms
+  ├── commons.py               # Common utilities
+  ├── data_utils.py            # Data utilities
+  ├── inference.ipynb          # Inference notebook
+  ├── losses.py                # Loss functions
+  ├── mel_processing.py        # Mel spectrogram processing
+  ├── models.py                # Model definitions
+  ├── modules.py               # Module implementations
+  ├── preprocess.py            # Data preprocessing
+  ├── requirements.txt         # Dependencies
+  ├── train.py                # Training script
+  ├── train_ms.py             # Multi-speaker training
+  ├── transforms.py           # Data transformations
+  └── utils.py                # Utility functions
 ```
 
 
